@@ -1,0 +1,9 @@
+.contact{
+  &__section1{
+    &__input{
+      @extend .fz-14;
+      color: #858585;
+      background-color: #f7f7f7;
+    }
+  }
+}

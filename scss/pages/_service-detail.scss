@@ -1,0 +1,29 @@
+.service-detail{
+  &__box1{
+    &__title{
+      @extend .fz-20;
+      font-family: $font-primary-Bold;
+      color: #444444;
+      line-height: (30/20);
+    }
+    &__content{
+      @extend .fz-15;
+      color: #444444;
+      line-height: 1.67;
+    }
+    &__list{
+      @extend .fz-15;
+      color: #444444;
+      line-height: 1.67;
+    }
+  }
+  &__box2{
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    &__title{
+      @extend .fz-18;
+      font-family: $font-primary-Bold;
+      color: #444444;
+    }
+  }
+}

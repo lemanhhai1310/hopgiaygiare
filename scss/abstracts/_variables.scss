@@ -1,0 +1,21 @@
+// Fonts families
+$font-primary: 'Chakra Petch Regular',sans-serif;
+$font-primary-Italic: 'Chakra Petch Italic',sans-serif;
+$font-primary-Bold: 'Chakra Petch Bold',sans-serif;
+//$font-secondary: 'Playfair Display',sans-serif;
+
+// Font-size base
+$base-font: 14px !default;
+$base-design-font: 14px !default;
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints: (
+  xs: 375px,
+  s: 640px,
+  m: 960px,
+  l: 1200px,
+  xl: 1600px
+) !default;

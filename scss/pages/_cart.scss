@@ -1,0 +1,66 @@
+.cart{
+  &__section1{
+
+  }
+  &__table{
+    tr{
+      th{
+        color: #444444;
+        font-family: $font-primary-Bold;
+      }
+    }
+  }
+  &__box1{
+    &__title{
+      font-family: $font-primary-Bold;
+      @extend .fz-16;
+      a{
+        color: $color-1;
+      }
+    }
+    &__txt1{
+      color: #525156;
+      @extend .fz-14;
+      line-height: (18/12);
+      a,
+      span{
+        font-family: $font-primary-Bold;
+      }
+    }
+    &__txt2{
+      color: #333333;
+      @extend .fz-15;
+      line-height: (21/14);
+    }
+    &__txt3{
+      @extend .fz-16;
+      font-family: $font-primary-Bold;
+      span{
+        color: $color-2;
+      }
+    }
+  }
+  &__boxModal{
+    &__title{
+      font-family: $font-primary-Bold;
+    }
+    &__input{
+      @extend .fz-14;
+      color: #444444;
+    }
+    &__txt1{
+      font-family: $font-primary-Bold;
+      color: #444444;
+      @extend .fz-15;
+    }
+    &__madon{
+      height: 54px;
+      line-height: 54px;
+      background: $color-1;
+      text-transform: uppercase;
+      @extend .fz-28;
+      color: #444444;
+      font-family: $font-primary-Bold;
+    }
+  }
+}

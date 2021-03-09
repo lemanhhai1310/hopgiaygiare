@@ -1,0 +1,37 @@
+#cart-show{
+
+}
+.dropdown-cart{
+  &__card{
+    &__header{
+      @extend .dropdown-cart__card__dc;
+      &__title{
+
+      }
+    }
+    &__body{
+      border-top: 1px solid rgba(0,0,0,.05);
+      &__item{
+        padding: 10px;
+        &:nth-child(n+2){
+          border-top: 1px solid rgba(0,0,0,.05);
+        }
+      }
+      &__delete{
+        font-size: 13px;
+      }
+    }
+    &__footer{
+      @extend .dropdown-cart__card__dc;
+      border-top: 1px solid rgba(0,0,0,.05);
+      &__btn{
+        text-transform: inherit;
+        padding: 0 15px;
+        background: #E70D83;
+      }
+    }
+    &__dc{
+      padding: 10px;
+    }
+  }
+}

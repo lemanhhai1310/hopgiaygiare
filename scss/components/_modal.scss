@@ -1,0 +1,42 @@
+.shop_modal{
+  &__header{
+
+  }
+  &__body{
+    &__label{
+      color: #000;
+      font-family: $font-primary-Bold;
+      @extend .fz-15;
+    }
+    &__input{
+      @extend .fz-15;
+    }
+    &__txt{
+      @extend .fz-15;
+      a{
+        color: #d02128;
+        font-family: $font-primary-Bold;
+      }
+    }
+    &__btn{
+      background-color: #9e0b0f;
+      border-color: #9e0b0f;
+      color: #ffffff;
+      font-family: $font-primary-Bold;
+      line-height: 48px;
+
+      // Custom
+      //font-size: 24px;
+      @extend .fz-24;
+      font-family: $font-primary-Bold;
+    }
+  }
+}
+.box_btn{
+  border: 1px solid #d02128;
+}
+.uk-modal-dialog{
+  .shop_modal &{
+    width: 450px;
+  }
+}

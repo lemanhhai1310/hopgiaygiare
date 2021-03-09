@@ -1,0 +1,70 @@
+.tracuudonhang{
+  &__section1{
+    &__input{
+      @extend .fz-15;
+    }
+    &__btn{
+      font-family: $font-primary-Bold;
+      @extend .fz-15;
+      background: $color-2;
+      border-color: $color-2;
+      color: #ffffff;
+    }
+    &__divider{
+      @include media-breakpoint-up('m'){
+        $x: 25px;
+        margin-top: #{$x} !important;
+        margin-bottom: #{$x} !important;
+      }
+    }
+    &__box1{
+      &__title{
+        color: #444444;
+        @extend .fz-18;
+        font-family: $font-primary-Bold;
+        margin-bottom: 10px !important;
+      }
+      &__progress{
+        position: relative;
+        &:before{
+          //content: attr(data-value);
+          content: ""attr(data-value)"%";
+          position: absolute;
+          left: calc(100% + 10px);
+          top: 50%;
+          transform: translateY(-50%);
+          @extend .fz-15;
+          color: $color-2;
+        }
+        .uk-progress{
+          &::-webkit-progress-value{
+            background-color: $color-3;
+          }
+        }
+      }
+      &__txt1{
+        font-family: $font-primary-Bold;
+        color: $color-3;
+        @extend .fz-20;
+        line-height: 1.4;
+        margin-bottom: 13px;
+      }
+      &__txt2{
+        font-family: $font-primary-Bold;
+        color: $color-3;
+        @extend .fz-50;
+        line-height: 0.56;
+      }
+      &__list{
+        @extend .fz-14;
+        &__c1{
+          color: #757575;
+          font-family: $font-primary-Bold;
+        }
+        &__c2{
+          color: #afafaf;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.news-detail{
+  &__box1{
+    top: (63px/230px)*100%;
+    background: radial-gradient(97.58% 97.58% at 39.49% 120.24%, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    &__title{
+      @extend .fz-16;
+      font-family: $font-primary-Bold;
+      line-height: 1.25;
+      a{
+
+      }
+    }
+  }
+}

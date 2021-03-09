@@ -1,0 +1,31 @@
+.qa{
+  &__list{
+    >li{
+      margin: 0 !important;
+      &:nth-child(n+2){
+        border-top: 1px solid #f3f3f3;
+      }
+      >a{
+        padding: 15px 0px;
+      }
+    }
+  }
+  &__title{
+    @extend .fz-20;
+    font-family: $font-primary-Bold;
+    color: #444444;
+    &:before{
+      float: left;
+      margin: 0;
+      margin-right: 10px;
+    }
+  }
+  &__content{
+    @extend .fz-15;
+    color: #444444;
+    $x: 15px;
+    margin-top: 0;
+    margin-bottom: #{$x};
+    padding-left: 38px;
+  }
+}

@@ -1,0 +1,48 @@
+.footer{
+  color: #a7a7a7;
+  &__top{
+    background: rgba(#363535,0.8);
+    @include media-breakpoint-up('m'){
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  &__title{
+    @extend .fz-18;
+    font-family: $font-primary-Bold;
+    color: #ffffff;
+    line-height: 1.83;
+  }
+  &__txt{
+    @extend .fz-14;
+  }
+  &__social{
+    $x: 20px;
+    width: #{$x};
+    height: #{$x};
+    .contact__section1 &{
+      color: #444444;
+      border: 1px solid;
+      border-radius: 50%;
+      border-color: #444444;
+    }
+  }
+  &__menu{
+    >li{
+      >a{
+        color: #a7a7a7;
+        @extend .fz-14;
+        &:hover{
+          color: #7ad8f7;
+        }
+      }
+    }
+  }
+  &__copyright{
+    color: #717171;
+    @extend .fz-13;
+    a{
+      color: #a2c8d5;
+    }
+  }
+}

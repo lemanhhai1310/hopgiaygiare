@@ -1,0 +1,29 @@
+.suggest{
+  background-color: rgba(255,255,255,.95);
+  max-height: 300px;
+  height: initial;
+  &__item{
+    padding: 10px;
+    &:hover{
+      background-color: rgba(0,0,0,.05);
+    }
+    &:nth-child(n+2){
+      border-top: 1px solid rgba(0,0,0,.05);
+    }
+    &__name{
+      color: #000;
+      font-family: $font-primary-Bold;
+      font-size: 13px;
+    }
+    &__price{
+      font-size: 13px;
+      &--new{
+        color: #ED2024;
+        font-family: $font-primary-Bold;
+      }
+      &--old{
+
+      }
+    }
+  }
+}

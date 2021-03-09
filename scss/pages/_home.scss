@@ -1,0 +1,399 @@
+.home{
+  &__boxSlider{
+    &__box1{
+      &__title{
+        @extend .fz-45;
+        font-family: $font-primary;
+        span{
+          color: #eaff75;
+        }
+      }
+      &__desc{
+        font-family: $font-primary;
+        @extend .fz-14;
+        line-height: 1.93;
+        @include media-breakpoint-up('m'){
+          margin-bottom: 67px;
+        }
+      }
+      &__btn{
+        background-color: #fff !important;
+        @extend .fz-14;
+        color: #444444 !important;
+        text-transform: inherit;
+        line-height: 41px;
+        @include media-breakpoint-up('m'){
+          min-width: 191px;
+        }
+      }
+    }
+  }
+  &__boxTitle{
+    &__desc{
+      @extend .fz-14;
+      color: #9f9f9f;
+      line-height: (22/14);
+    }
+    @extend .fz-30;
+    font-family: $font-primary-Bold;
+    line-height: 1.33;
+    &--baogia{
+      @include media-breakpoint-up('m'){
+        margin-bottom: 0px !important;
+      }
+    }
+    @include media-breakpoint-up('m'){
+      margin-bottom: 40px;
+      .home__boxProduct &{
+        margin-bottom: 32px;
+      }
+    }
+    &__inlineBlock{
+      &:before,&:after{
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 4px;
+        display: inline-block;
+        background: $color-1;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      $x: 22px;
+      &:before{
+        right: calc(100% + #{$x} - 10px);
+        @include media-breakpoint-up('m'){
+          right: calc(100% + #{$x});
+        }
+      }
+      &:after{
+        left: calc(100% + #{$x} - 10px);
+        @include media-breakpoint-up('m'){
+          left: calc(100% + #{$x});
+        }
+      }
+    }
+    &__txt{
+      color: $color-1;
+    }
+  }
+  &__boxDichvu{
+    &__boxImg{
+
+    }
+    &__btnLoadmore{
+      line-height: 41px;
+      text-transform: inherit;
+      width: 206px;
+      @extend .fz-15;
+      background-color: rgba($color-1,1);
+      &:hover{
+        background-color: rgba($color-1,1);
+      }
+      position: relative;
+      &:before,&:after{
+        z-index: -1;
+        content: "";
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        background: rgba($color-1,0.3);
+        border-radius: 500px;
+      }
+      $x: 7px;
+      $y: 2*$x;
+      &:before{
+        left: -#{$x};
+        right: -#{$x};
+      }
+      &:after{
+        left: -#{$y};
+        right: -#{$y};
+      }
+    }
+    &__grid{
+      margin-bottom: 20px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 44px;
+      }
+    }
+    &__txt{
+      @extend .fz-23;
+      font-family: $font-primary-Bold;
+      margin-bottom: 15px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 27px;
+      }
+    }
+    &__btn{
+      @include media-breakpoint-up('m'){
+        width: 162px;
+      }
+      text-transform: inherit;
+      @extend .fz-14;
+      color: #ffffff !important;
+      background-color: rgba($color-1, 0.8) !important;
+      line-height: 36px;
+    }
+  }
+  &__box01{
+    &__card{
+
+    }
+    @include media-breakpoint-up('m'){
+      //padding-top: calc(70px + 18px);
+    }
+    &__bg{
+      margin-top: 18px;
+      width: 128px;
+      height: 128px;
+      background: $color-1;
+      .buoc1 &{
+        background: $color-2;
+      }
+      .buoc2 &{
+        background: $color-3;
+      }
+      .home__boxBaogia &{
+        //margin-top: -106px !important;
+      }
+      margin-bottom: 45px;
+      &:before,&:after{
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+      }
+      $x: -8px;
+      $y: -10px;
+      &:before{
+        background: rgba($color-1, 0.5);
+        .buoc1 &{
+          background: rgba($color-2, 0.5);
+        }
+        .buoc2 &{
+          background: rgba($color-3, 0.5);
+        }
+        top: #{$x};
+        left: #{$x};
+        right: #{$x};
+        bottom: #{$x};
+      }
+      &:after{
+        background: rgba($color-1, 0.2);
+        .buoc1 &{
+          background: rgba($color-2, 0.2);
+        }
+        .buoc2 &{
+          background: rgba($color-3, 0.2);
+        }
+        top: $x + $y;
+        left: $x + $y;
+        right: $x + $y;
+        bottom: $x + $y;
+      }
+    }
+    &__title{
+      @extend .fz-18;
+      font-family: $font-primary-Bold;
+      color: #444444;
+    }
+    &__desc{
+      @extend .fz-14;
+      color: #9f9f9f;
+      line-height: 1.57;
+      margin-bottom: 0;
+    }
+  }
+  &__boxTintuc{
+    &__overlay{
+      background: rgba(#000000,0.3);
+    }
+    &__iconPlay{
+      width: 34px;
+      height: 37px;
+      display: inline-block;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='34' height='37' viewBox='0 0 34 37'%3E%3Cimage id='play' width='34' height='37' xlink:href='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAlCAYAAAAnQjt6AAABsUlEQVRYhc3YzYtOURzA8c/IaspS/gE2FuzsmJ2FrGyUhYWFjRorWbAwIeQlNFmxEAlJSpPNTFnYmCSRjYbyErHBJEXx09U9NZ4exvPcl3O/dW7dc++5ffudc3/nZSQiXuI1xvFQLuJPzkfEyojQdiku8z0yPyJiIiJG25TpJ5J4FxHjXRBJPImIbV0QSUxHxPouiCQuRcSaLogkJiNieV0iSypkjV14jr0YqZx9KkRkIXMRsTNX1/TjUURsartr+rEWU7iNdYM0rFsksRn3cQGrcookduAZDmI0p0hiP15gd26RghU4jafYnlMksRoXcRcbUmWxMJrHsgxCiWs40QWR3+Toml5msWVpRoG35Tx1ubjJIfKlGBM4jq+psm2RSRzC+94HbYlcxz7M/e2FpgfrPWzE1n9JaDAij3EMV/63Qd0in3AAZwZtWJfIN5ws/4aPw3ygDpFzOFrun4emisgdTJQLoMoMI/IAh3GrDoHEICKvypR8tU6BQUSK2fkUjuB7ExKLifzE2VLgQ1MCi4ncxJ5yndkOPZukmYgYa/oIol8pIvIGn8uMeKO1CCwEvwB+1qSKNWJ0+AAAAABJRU5ErkJggg=='/%3E%3C/svg%3E%0A");
+      &:hover{
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='34' height='37' viewBox='0 0 34 37'%3E%3Cimage id='play_copy' data-name='play copy' width='34' height='37' xlink:href='data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAlCAYAAAAnQjt6AAABqElEQVRYhc3XS4hOYRzA4eebrJSlWNlgI7GRjVxKWciKhZIsKBvFStRIhJBLaJpSLOTSJElJNhKyGTMjlyiXmeKTYuOuWEin3neaZPrMfOecv9/u3J/O9T2N7U+/vUITm3FfUB2YhgUYwCnMiKAUkC8jpjfgGXZjYt2Qv83bicF0ucIguak4jsdYEwnJzcZ53MDCSEhuKe7gLOZEQnJr8RBdmBwJyW1KN/Q2NCIhRZNwAC+wMRKSm46TeIDlkZDcXFzDVcyPhORWoBenMTMSkluP59jT6pNRNSS3A0PYEg0pmoJjeIJ1kZDcLJzBLSyKhOQW4zZ6MC8SkluNvv8Bcg8rJwQC3qbv1LliIgLyFYdxCN/zzLohxdBhL979uaAuyEV04uVoK1R9s97FsvRkjIpQ4Rl5hIO48K8blA35iF1p9D+myoL8wJH0NHwYzw7KgHSn4WKznZ20A7mefk172wG0A+nHPlwpAzAeyOv0Su4pEzAWyGccxX78rALRCvILJxLgfVWAVpDL2JrGmbXUkf7WcjexBKvqRBQVZ+QNPqU34qU6Dz4cfgOAG09JDEWwuAAAAABJRU5ErkJggg=='/%3E%3C/svg%3E%0A");
+      }
+    }
+    &__boximg{
+      margin-bottom: 20px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 30px;
+      }
+    }
+    &__boxDate{
+      background: rgba($color-1, 0.8);
+      width: 55px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      left: 14px;
+      //padding: 0 13px;
+      @extend .fz-17;
+      line-height: 1.47;
+      hr{
+        margin: 1px 0;
+      }
+    }
+    &__title{
+      @extend .fz-15;
+      font-family: $font-primary-Bold;
+      line-height: 1.57;
+      margin-bottom: 20px;
+      a{
+        color: #333333;
+      }
+    }
+    &__desc{
+      @extend .fz-14;
+      color: #333333;
+      line-height: 1.57;
+    }
+    &__dot{
+      @include media-breakpoint-up('m'){
+        margin-top: 50px !important;
+        margin-bottom: 45px !important;
+      }
+      >li{
+        &.uk-active{
+          >a{
+            background-color: $color-1;
+          }
+        }
+        >a{
+          background-color: #cdcdcd;
+          border-color: #cdcdcd;
+          &:hover{
+            background-color: $color-1;
+            border-color: $color-1;
+          }
+          @include media-breakpoint-up('m'){
+            width: 15px;
+            height: 15px;
+          }
+        }
+      }
+    }
+  }
+  &__boxBrand{
+    border-top: 1px solid #f3f3f3;
+    padding: 20px 0;
+    @include media-breakpoint-up('m'){
+      padding: 28px 0;
+    }
+  }
+  &__boxProduct{
+    &__grid1{
+      .uk-grid-margin{
+        margin-top: 25px !important;
+        @include media-breakpoint-up('m'){
+          margin-top: 47px !important;
+        }
+      }
+    }
+    &__margin1{
+      margin-bottom: 30px;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 51px;
+      }
+    }
+    &__navFillter{
+      >li{
+        &.uk-active{
+          >a{
+            color: $color-1 !important;
+          }
+        }
+        &:nth-child(n+2){
+          &:before{
+            height: 17px;
+            border-color: #828282 !important;
+          }
+        }
+        >a{
+          text-transform: inherit !important;
+          @extend .fz-15;
+          color: #828282;
+        }
+      }
+    }
+    &__boxsp{
+      &__title{
+        font-family: $font-primary-Bold;
+        @extend .fz-15;
+        line-height: (23/15);
+        a{
+          color: #444444;
+        }
+      }
+      &__maso{
+        @extend .fz-13;
+        color: #8a8a8a;
+        line-height: (23/13);
+        span{
+          color: $color-1;
+        }
+      }
+    }
+    &__price{
+      text-transform: inherit;
+      @extend .fz-13;
+      color: #8a8a8a;
+      line-height: 32px;
+      padding: 0 10px;
+      span{
+        color: #fe6969;
+        .uk-transition-toggle:hover &{
+          color: #ffffff;
+        }
+      }
+      .uk-transition-toggle:hover &{
+        background-image: url("images/bg1_btn.png");
+        //background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #ffffff;
+      }
+    }
+    &__nav{
+      padding: 8px;
+      &.uk-invisible{
+        visibility: visible !important;
+        opacity: 0.4;
+        &:hover{
+          color: inherit;
+        }
+      }
+    }
+  }
+  &__boxBaogia{
+    background: #fbfbfb;
+    &__margin{
+      margin-bottom: 44px;
+    }
+    &__box2{
+
+    }
+    &__box1{
+      margin-top: -100px;
+      .uk-card-body{
+        padding-top: 80px;
+      }
+      &__txt1{
+        color: $color-1;
+        @extend .fz-15;
+        line-height: (25/15);
+      }
+      &__txt2{
+        font-family: $font-primary-Bold;
+        @extend .fz-18;
+        color: #444444;
+        line-height: (22/18);
+      }
+    }
+  }
+}

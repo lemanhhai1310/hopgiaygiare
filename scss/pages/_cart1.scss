@@ -1,0 +1,151 @@
+.cart{
+  padding-bottom: 15px;
+  @include media-breakpoint-up('m'){
+    padding: 20px 0;
+  }
+  &__box1{
+    //@extend .uk-container;
+    //@include media-breakpoint-down('xs'){
+    //  padding-top: 10px;
+    //  padding-bottom: 10px;
+    //}
+  }
+  &__btn1{
+    line-height: 48px;
+    font-family: $font-primary-Bold;
+    @extend .fz-15;
+    &--buy{
+      background-color: #f2641e;
+      border-color: #f2641e;
+      color: #ffffff;
+    }
+    &--send{
+      background-color: #9b0000;
+      border-color: #9b0000;
+      color: yellow;
+    }
+  }
+  &__dc{
+    $x: 30px;
+    padding-top: #{$x/2};
+    padding-bottom: #{$x/2};
+    @include media-breakpoint-up('m'){
+      padding-left: #{$x};
+      padding-right: #{$x};
+    }
+  }
+  &__left{
+    @extend .cart__dc;
+    &__txt1{
+      @extend .fz-15;
+      span{
+        color: #d02128;
+        font-family: $font-primary-Bold;
+        $fz: 18;
+        @include fluidx(base($fz),base(scale_8($fz)),font-size);
+      }
+    }
+    &__table1{
+      &__divider{
+        border-top: 1px solid #e5e5e5;
+      }
+      tr{
+
+      }
+      &__txt1{
+        color: #000;
+        font-family: $font-primary-Bold;
+        @extend .fz-15;
+      }
+    }
+    &__table{
+      tbody{
+        tr{
+          border-top: 1px solid #e5e5e5;
+        }
+      }
+      tr{
+
+      }
+    }
+    &__title{
+      font-family: $font-primary-Bold;
+      a{
+        color: #d02128;
+      }
+    }
+    &__badge{
+      top: -5px;
+      right: -5px;
+      background-color: #d02128;
+    }
+    &__price{
+      color: #d02128;
+      font-family: $font-primary-Bold;
+    }
+  }
+  &__right{
+    @extend .cart__dc;
+    &__title{
+      @include media-breakpoint-up('m'){
+
+      }
+      color: #9b0000;
+      font-family: $font-primary-Bold;
+      $fz: 24;
+      @include fluidx(base($fz),base(scale_8($fz)),font-size);
+    }
+    &__input{
+      @extend .cart__right__dc;
+      &::placeholder{
+
+      }
+    }
+    &__title1{
+      font-family: $font-primary-Bold;
+      color: #000;
+      $fz: 17;
+      @include fluidx(base($fz),base(scale_9($fz)),font-size);
+    }
+    &__radio{
+      $fz: 14;
+      @include fluidx(base($fz),base(scale_10($fz)),font-size);
+    }
+    &__btn1{
+      background-color: #FAA053;
+      border-color: #FAA053;
+      padding: 0 10px;
+    }
+    &__btn{
+      text-transform: inherit;
+      text-align: left;
+      padding-left: 10px;
+      position: relative;
+      @extend .cart__right__dc;
+      .uk-icon{
+        right: 5px;
+      }
+    }
+    &__dc{
+      $fz: 14;
+      @include fluidx(base($fz),base(scale_10($fz)),font-size);
+    }
+    &__pay1{
+      border: 1px dashed;
+      padding: 10px;
+      margin-top: 5px;
+      &__title{
+        $fz: 15;
+        @include fluidx(base($fz),base(scale_10($fz)),font-size);
+      }
+      &__list{
+        $fz: 14;
+        @include fluidx(base($fz),base(scale_10($fz)),font-size);
+      }
+      &__txt{
+        $fz: 14;
+        @include fluidx(base($fz),base(scale_10($fz)),font-size);
+      }
+    }
+  }
+}

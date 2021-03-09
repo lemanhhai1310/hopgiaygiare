@@ -1,0 +1,25 @@
+.news{
+  &__box1{
+    background-color: #F6F6F6;
+    &__date{
+      color: #989797;
+      @extend .fz-12;
+      margin-bottom: 10px;
+      .uk-light &{
+        color: #fcfcfc;
+      }
+    }
+    &__title{
+      @extend .fz-15;
+      font-family: $font-primary-Bold;
+      margin-bottom: 10px !important;
+      a{
+        color: #444444;
+      }
+    }
+    &__desc{
+      @extend .fz-14;
+      color: #444444;
+    }
+  }
+}
