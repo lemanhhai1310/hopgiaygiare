@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f91b69e9-d70f-4cd5-bba8-dc4021bc7b42" name="Default Changelist" comment="" />
+    <list default="true" id="f91b69e9-d70f-4cd5-bba8-dc4021bc7b42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02/vieclam123/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02/vieclam123/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +60,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -86,6 +97,7 @@
       <workItem from="1615210102957" duration="316000" />
       <workItem from="1615210461006" duration="2165000" />
       <workItem from="1615255750637" duration="3037000" />
+      <workItem from="1615274970187" duration="342000" />
     </task>
     <servers />
   </component>
