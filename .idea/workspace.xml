@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f91b69e9-d70f-4cd5-bba8-dc4021bc7b42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../02/vieclam123/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../02/vieclam123/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/_index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/_locvieclam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/_locvieclam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/locvieclam.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/locvieclam.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_locvieclam.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/scss/pages/_locvieclam.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../cooken" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +42,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pBXuxkmtLNoy5KRcoT7hpEhsbh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -98,6 +107,10 @@
       <workItem from="1615210461006" duration="2165000" />
       <workItem from="1615255750637" duration="3037000" />
       <workItem from="1615274970187" duration="342000" />
+      <workItem from="1615534149529" duration="51000" />
+      <workItem from="1615747467430" duration="3000" />
+      <workItem from="1615747480231" duration="670000" />
+      <workItem from="1615773802560" duration="211000" />
     </task>
     <servers />
   </component>

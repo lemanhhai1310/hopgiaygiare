@@ -231,7 +231,7 @@
         <div class="home__boxDichvu__grid" uk-slider="sets: true;finite: true;">
             <div class="uk-flex-middle home__boxProduct__margin1 uk-grid-small" uk-grid>
                 <div class="uk-width-expand">
-                    <ul class="uk-subnav uk-subnav-divider home__boxProduct__navFillter" uk-margin>
+                    <ul class="uk-subnav uk-subnav-divider home__boxProduct__navFillter uk-visible@m" uk-margin>
                         <li class="uk-active"><a href="#">Tất cả</a></li>
                         <li><a href="#">Business Cards</a></li>
                         <li><a href="#">Postcards</a></li>
@@ -240,6 +240,21 @@
                         <li><a href="#">Counter Cards</a></li>
                         <li><a href="#">Door Hangers</a></li>
                     </ul>
+                    <div class="uk-hidden@m" uk-form-custom="target: > * > span:first-child">
+                        <select>
+                            <option value="">Tất cả</option>
+                            <option value="1">Business Cards</option>
+                            <option value="2">Postcards</option>
+                            <option value="3">Carbonless Form</option>
+                            <option value="4">Catalogs</option>
+                            <option value="3">Counter Cards</option>
+                            <option value="4">Door Hangers</option>
+                        </select>
+                        <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                            <span></span>
+                            <span uk-icon="icon: chevron-down"></span>
+                        </button>
+                    </div>
                 </div>
                 <div class="uk-width-auto">
                     <div class="">
@@ -251,7 +266,7 @@
             <div class="uk-position-relative">
 
                 <div class="uk-slider-container">
-                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-12 uk-grid-15-s uk-grid-30-m" uk-grid>
+                    <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-4@m uk-grid-12 uk-grid-15-s uk-grid-30-m" uk-grid>
                         <?php for ($i=1;$i<=8;$i++): ?>
                         <li>
                             <div class="uk-child-width-1-1 home__boxProduct__grid1" uk-grid>
