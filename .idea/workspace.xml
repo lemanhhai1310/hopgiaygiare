@@ -14,12 +14,6 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../cooken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/product-detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pages/_product-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_product-detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" afterDir="false" />
@@ -115,7 +109,7 @@
       <workItem from="1615747480231" duration="670000" />
       <workItem from="1615773802560" duration="412000" />
       <workItem from="1615816592982" duration="597000" />
-      <workItem from="1615857569290" duration="1954000" />
+      <workItem from="1615857569290" duration="2174000" />
     </task>
     <servers />
   </component>
