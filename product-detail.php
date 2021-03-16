@@ -85,6 +85,7 @@
                                 </div>
                                 <script type="text/javascript">
                                   $(document).ready(function(){
+
                                     $('.slider-nav').slick({
                                       centerMode: false,
                                       // infinite: false,
@@ -94,8 +95,12 @@
                                       slidesToShow: 4,
                                       slidesToScroll: 1,
                                       customPaging: 50,
-                                      prevArrow: '<a href="" class="slider-nav__prevArrow uk-position-top-center uk-position-z-index" uk-icon="icon: chevron-up; ratio: 1.5;"></a>',
-                                      nextArrow: '<a href="" class="slider-nav__nextArrow uk-position-bottom-center uk-position-z-index" uk-icon="icon: chevron-down; ratio: 1.5;"></a>',
+                                      prevArrow: '<a href="" class="slider-nav__prevArrow slider-nav__icon uk-position-z-index" uk-toggle="cls: uk-position-top-center; mode: media; media: @m" uk-icon="icon: chevron-up; ratio: 1.5;"></a>',
+                                      nextArrow: '<a href="" class="slider-nav__nextArrow slider-nav__icon uk-position-z-index" uk-toggle="cls: uk-position-bottom-center; mode: media; media: @m" uk-icon="icon: chevron-down; ratio: 1.5;"></a>',
+                                      onBeforeChange: function() {
+                                        // let's do this after we init the banner slider
+                                        console.log('slider was initialized');
+                                      },
                                       responsive: [
                                         {
                                           breakpoint: 1024,
@@ -125,7 +130,19 @@
                                         // settings: "unslick"
                                         // instead of a settings object
                                       ]
-                                    });
+                                    })
+                                      .on('init', function(event, slick){
+                                        // let's do this after we init the banner slider
+                                        console.log('slider was initialized');
+                                      })
+                                      .on('beforeChange', function(event, slick, currentSlide, nextSlide){
+                                        // then let's do this before changing slides
+                                        console.log('before change');
+                                      })
+                                      .on('afterChange', function(event, slick, currentSlide, nextSlide){
+                                        // finally let's do this after changing slides
+                                        console.log('after change');
+                                      });
                                   });
                                 </script>
                             </div>

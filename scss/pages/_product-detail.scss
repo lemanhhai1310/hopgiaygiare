@@ -373,7 +373,9 @@
       outline: none;
     }
     &:nth-child(n+2){
-      margin-top: 16px;
+      @include media-breakpoint-up('m'){
+        margin-top: 16px;
+      }
     }
   }
   &__img{
@@ -388,11 +390,31 @@
     }
   }
   &__prevArrow{
-    top: inherit;
-    bottom: calc(100% - 0px);
+    @include media-breakpoint-up('m'){
+      top: inherit;
+      bottom: calc(100% - 0px);
+    }
+    @include media-breakpoint-down('s'){
+      left: 0;
+    }
+  }
+  &__icon{
+    @include media-breakpoint-down('s'){
+      top: 50%;
+      position: absolute;
+      transform: translateY(-50%);
+      svg{
+        transform: rotate(-90deg);
+      }
+    }
   }
   &__nextArrow{
-    bottom: inherit;
-    top: calc(100% - 13px);
+    @include media-breakpoint-down('s'){
+      right: 0;
+    }
+    @include media-breakpoint-up('m'){
+      bottom: inherit;
+      top: calc(100% - 13px);
+    }
   }
 }
