@@ -22,52 +22,52 @@
         <!--mô tả chi tiết-->
         <div class="uk-grid-small uk-grid-30-m" uk-grid>
             <div class="uk-width-expand uk-flex-last@m">
-                <div class="home__boxProduct__grid1 uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                <div class="home__boxProduct__grid1 uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-3@m uk-grid-small uk-grid-30-m uk-grid-match" uk-grid>
                     <?php
                     $data = array(
                         array(
                             'src' => 'images/products/img1.png',
-                            'title' => '',
+                            'title' => 'HỘP SON HIỆN ĐẠI - HGS 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img2.png',
-                            'title' => '',
+                            'title' => 'HỘP ĐỰNG BỘ MỸ PHẨM - HGMP 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img3.png',
-                            'title' => '',
+                            'title' => 'HỘP ĐỰNG LỌ NƯỚC HOA CAO CẤP - HGNH 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img4.png',
-                            'title' => '',
+                            'title' => 'HỘP THỰC PHẨM BỔ SUNG - HGBS 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img5.png',
-                            'title' => '',
+                            'title' => 'HỘP SERUM CHĂM SÓC DA CÁN VÂN CAO CẤP - HGCV 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img6.png',
-                            'title' => '',
+                            'title' => 'HỘP COMBO NƯỚC HOA VÀ KEM DƯỠNG - HGCB 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img7.png',
-                            'title' => '',
+                            'title' => 'HỘP ĐỰNG VỚ THỜI TRANG - HGV 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => 'images/products/img8.png',
-                            'title' => '',
+                            'title' => 'HỘP YẾN SÀO SMALL - HGYS 0001',
                             'price' => '',
                         ),
                         array(
                             'src' => '',
-                            'title' => '',
+                            'title' => 'HỘP YẾN SÀO LARGE - HGYS 0002',
                             'price' => '',
                         ),
                         array(
@@ -88,15 +88,15 @@
                     );
                     foreach ($data as $k => $v): ?>
                         <div>
-                            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                                <div class="uk-overflow-hidden uk-margin">
+                            <div class="uk-inline-clip uk-transition-toggle uk-flex uk-flex-column" tabindex="0">
+                                <div class="uk-overflow-hidden">
                                     <div class="uk-cover-container uk-transition-scale-up uk-transition-opaque">
                                         <img src="<?= ($v['src'] == '') ? 'images/noimage.jpg' : $v['src'] ?>" alt="" uk-cover>
                                         <canvas width="640" height="640"></canvas>
                                     </div>
                                 </div>
-                                <div class="uk-text-center uk-margin">
-                                    <h4 class="home__boxProduct__boxsp__title uk-h4 uk-text-uppercase uk-margin-remove"><a href="">Sổ bìa da gáy còng A5</a></h4>
+                                <div class="uk-text-center uk-margin uk-flex-1">
+                                    <h4 class="home__boxProduct__boxsp__title uk-h4 uk-text-uppercase uk-margin-remove"><a href=""><?= ($v['title'] == '') ? 'Sổ bìa da gáy còng A5' : $v['title'] ?></a></h4>
                                     <div class="home__boxProduct__boxsp__maso">MS: <span>HMP-QT 00006</span></div>
                                 </div>
                                 <div class="uk-flex-center" uk-grid>
