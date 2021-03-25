@@ -52,6 +52,72 @@
       <change afterPath="$PROJECT_DIR$/../aptech/minigame/minigame_assets/tm/queue_email.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../aptech/minigame/minigame_assets/tm/send_queued_emails.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../aptech/minigame/minigame_assets/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/js/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/scss/layout/_sendmail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aptech1/send-mailer.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/fonts/Fonts/Roboto-Black.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/fonts/Fonts/Roboto-Bold.ttf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/fonts/Fonts/Roboto-BoldItalic.ttf" afterDir="false" />
@@ -133,6 +199,81 @@
       <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/commons/facebook_chat.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/layouts/footer.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/.idea/sendmail.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-da.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-et.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ms.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-pl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-pt_br.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/mail/phpmailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/send-mailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sendmail/submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu-thpt/images/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu-thpt/scss/layout/_block01.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithu-thpt/template-parts/layouts/block01.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit-rtl.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit-rtl.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit.css" afterDir="false" />
@@ -154,7 +295,10 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../cooken" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit-rtl.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit-rtl.min.css" beforeDir="false" />
@@ -260,7 +404,12 @@
       <workItem from="1615816592982" duration="597000" />
       <workItem from="1615857569290" duration="2174000" />
       <workItem from="1616338449899" duration="4000" />
-      <workItem from="1616338463437" duration="226000" />
+      <workItem from="1616338463437" duration="574000" />
+      <workItem from="1616559925893" duration="735000" />
+      <workItem from="1616572854529" duration="193000" />
+      <workItem from="1616574032532" duration="333000" />
+      <workItem from="1616638736116" duration="83000" />
+      <workItem from="1616645047444" duration="572000" />
     </task>
     <servers />
   </component>

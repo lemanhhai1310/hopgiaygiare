@@ -3,7 +3,7 @@
 <?php require "template-parts/layouts/header.php"; ?>
 
 <!--Breadcrumb-->
-<div class="productDetail__boxBreadcrumd uk-background-norepeat uk-text-center uk-background-cover uk-background-center-center" uk-parallax="bgy: -10" data-src="images/bg_breadcrumd.png" uk-img>
+<div class="uk-hidden productDetail__boxBreadcrumd uk-background-norepeat uk-text-center uk-background-cover uk-background-center-center" uk-parallax="bgy: -10" data-src="images/bg_breadcrumd.png" uk-img>
     <div class="uk-section-xsmall productDetail__boxBreadcrumd__mask">
         <div class="uk-container">
             <h3 class="uk-h3 uk-margin-remove productDetail__boxBreadcrumd__title">Business Cards</h3>
@@ -16,6 +16,16 @@
     </div>
 </div>
 <!--/Breadcrumb-->
+
+<div class="uk-section-xsmall">
+    <div class="uk-container">
+        <ul class="uk-breadcrumb uk-margin-remove">
+            <li><a href="">Trang chủ</a></li>
+            <li><a href="">Sản phẩm</a></li>
+            <li><span>Business Cards</span></li>
+        </ul>
+    </div>
+</div>
 
 <div class="uk-section-small productDetail__section1">
     <div class="uk-container">

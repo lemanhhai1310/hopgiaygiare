@@ -3,69 +3,23 @@
 <?php require "template-parts/layouts/header.php"; ?>
 
 <!--Slide-->
-<div class="home__boxSlider uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 1366:420; animation: push; min-height: 420;">
+<div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slider>
 
-    <ul class="uk-slideshow-items">
+    <ul class="uk-slider-items uk-child-width-1-1" uk-grid>
         <li>
-            <img src="images/Layer2.png" alt="" uk-cover>
-            <div class="uk-position-cover uk-flex uk-flex-middle">
-                <div class="uk-width-1-1">
-                    <div class="uk-container">
-                        <div uk-grid>
-                            <div class="uk-width-1-2@m">
-                                <div class="uk-text-center" uk-scrollspy="target: > *; cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
-                                    <h2 class="home__boxSlider__box1__title uk-text-uppercase">" FLYERS <span>& LEAFLETS</span></h2>
-                                    <p class="home__boxSlider__box1__desc">Our A5 flyers and leaflets are our bestselling size. This is because they're perfect for potential prospects to carry around and are extremely cost effective. We currently have an offer of 1000 flyers and leaflets for only £ 24!</p>
-                                    <a href="" class="home__boxSlider__box1__btn uk-button uk-button-default uk-border-pill">Xem chi tiết</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img class="uk-visible@m" src="https://hopgiayre.vn/upload/imgbanner/in-hop-cung-re-3.jpg" alt="">
+            <img class="uk-hidden@m" src="https://hopgiayre.vn/upload/imgbanner/in-hop-cung-re-mobile-414x250mm.jpg" alt="">
         </li>
         <li>
-            <img src="images/dark.jpg" alt="" uk-cover>
-            <div class="uk-position-cover uk-flex uk-flex-middle">
-                <div class="uk-width-1-1">
-                    <div class="uk-container">
-                        <div uk-grid>
-                            <div class="uk-width-1-2@m">
-                                <div class="uk-text-center" uk-scrollspy="target: > *; cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
-                                    <h2 class="home__boxSlider__box1__title uk-text-uppercase">" FLYERS <span>& LEAFLETS</span></h2>
-                                    <p class="home__boxSlider__box1__desc">Our A5 flyers and leaflets are our bestselling size. This is because they're perfect for potential prospects to carry around and are extremely cost effective. We currently have an offer of 1000 flyers and leaflets for only £ 24!</p>
-                                    <a href="" class="home__boxSlider__box1__btn uk-button uk-button-default uk-border-pill">Xem chi tiết</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li>
-            <img src="images/light.jpg" alt="" uk-cover>
-            <div class="uk-position-cover uk-flex uk-flex-middle">
-                <div class="uk-width-1-1">
-                    <div class="uk-container">
-                        <div uk-grid>
-                            <div class="uk-width-1-2@m">
-                                <div class="uk-text-center" uk-scrollspy="target: > *; cls: uk-animation-slide-bottom; delay: 500; repeat: true;">
-                                    <h2 class="home__boxSlider__box1__title uk-text-uppercase">" FLYERS <span>& LEAFLETS</span></h2>
-                                    <p class="home__boxSlider__box1__desc">Our A5 flyers and leaflets are our bestselling size. This is because they're perfect for potential prospects to carry around and are extremely cost effective. We currently have an offer of 1000 flyers and leaflets for only £ 24!</p>
-                                    <a href="" class="home__boxSlider__box1__btn uk-button uk-button-default uk-border-pill">Xem chi tiết</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img class="uk-visible@m" src="https://hopgiayre.vn/upload/imgbanner/in-hop-cung-re-3.jpg" alt="">
+            <img class="uk-hidden@m" src="https://hopgiayre.vn/upload/imgbanner/in-hop-cung-re-mobile-414x250mm.jpg" alt="">
         </li>
     </ul>
 
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
-    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom"></ul>
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom"></ul>
 
 </div>
 <!--/Slide-->
