@@ -28,7 +28,7 @@
                         <div class="uk-width-expand">
                             <input class="uk-input tracuudonhang__section1__input uk-border-rounded" type="text" placeholder="Nhập mã đơn hàng (*)">
                         </div>
-                        <div class="uk-width-expand">
+                        <div class="uk-width-auto">
                             <button type="button" class="tracuudonhang__section1__btn uk-border-rounded uk-button uk-button-default">TÌM KIẾM ĐƠN HÀNG</button>
                         </div>
                     </form>
