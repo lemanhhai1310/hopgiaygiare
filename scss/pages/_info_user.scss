@@ -1,0 +1,50 @@
+.info_user{
+  &__editForm{
+    &__label{
+      color: #767676;
+      @extend .fz-16;
+    }
+    &__txt{
+      color: #ababab;
+      @extend .fz-14;
+    }
+    &__input{
+      @extend .fz-14;
+      color: #767676;
+      border-color: #f3f3f3;
+      border-radius: 3px;
+      background-color: #f3f3f3;
+    }
+    &__btn{
+      @extend .info_user__editForm__input;
+      padding-left: 12px;
+      text-transform: inherit;
+    }
+  }
+  &__box1{
+    $x: 12px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: #{$x};
+    &__box{
+      &:after{
+        content: "";
+        position: absolute;
+        bottom: calc(0px - #{$x} - 1px);
+        left: 0;
+        right: 0;
+        display: inline-block;
+        height: 1px;
+        width: 100%;
+        background-color: #19b8f3;
+      }
+    }
+    .uk-icon{
+      color: #19b8f3;
+    }
+    &__txt{
+      color: #676767;
+      font-family: $font-primary-Bold;
+      @extend .fz-16;
+    }
+  }
+}

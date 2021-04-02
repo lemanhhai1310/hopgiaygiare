@@ -1,0 +1,41 @@
+.order{
+  &__time{
+    color: #a7a7a7;
+    @extend .fz-13;
+  }
+  &__status{
+    color: #00d089;
+    @extend .fz-13;
+  }
+  &__price{
+    color: #f22f39;
+    @extend .fz-13;
+    font-family: $font-primary-Bold;
+  }
+  &__name{
+    color: #767676;
+    @extend .fz-13;
+    font-family: $font-primary-Bold;
+    text-transform: uppercase;
+  }
+  &__stt{
+    color: #767676;
+    @extend .fz-14;
+  }
+  &__code{
+    color: #6fbbb4;
+    @extend .fz-13;
+    font-family: $font-primary-Bold;
+  }
+  &__table{
+    tr{
+      th{
+        background-color: #f2f2f2;
+        color: #767676;
+        font-family: $font-primary-Bold;
+        @extend .fz-14;
+        text-transform: inherit;
+      }
+    }
+  }
+}

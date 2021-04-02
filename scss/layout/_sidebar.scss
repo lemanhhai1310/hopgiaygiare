@@ -1,0 +1,23 @@
+.sidebar{
+  &__box1{
+    &__txt1{
+      @extend .fz-16;
+      color: #676767;
+      font-family: $font-primary-Bold;
+    }
+    &__txt2{
+      @extend .fz-13;
+      color: #afafaf;
+    }
+    &__txt3{
+      @extend .fz-14;
+      color: #f0506e;
+      font-family: $font-primary-Bold;
+    }
+  }
+  &__box2{
+    .uk-nav-sub{
+      padding-left: 29px;
+    }
+  }
+}

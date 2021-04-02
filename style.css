@@ -286,6 +286,21 @@ body {
   color: #a2c8d5;
 }
 
+.sidebar__box1__txt1 {
+  color: #676767;
+  font-family: "Chakra Petch Bold", sans-serif;
+}
+.sidebar__box1__txt2 {
+  color: #afafaf;
+}
+.sidebar__box1__txt3 {
+  color: #f0506e;
+  font-family: "Chakra Petch Bold", sans-serif;
+}
+.sidebar__box2 .uk-nav-sub {
+  padding-left: 29px;
+}
+
 .uk-offcanvas-bar {
   background: #ffffff;
 }
@@ -1708,30 +1723,30 @@ body {
   }
 }
 
-.fz-13, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright {
+.fz-13, .order__code, .order__name, .order__price, .order__status, .order__time, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright, .sidebar__box1__txt2 {
   font-size: 13px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-13, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright {
+  .fz-13, .order__code, .order__name, .order__price, .order__status, .order__time, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright, .sidebar__box1__txt2 {
     font-size: calc(13px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-13, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright {
+  .fz-13, .order__code, .order__name, .order__price, .order__status, .order__time, .productDetail__section1__box1__input, .productDetail__section1__box1__btn, .home__boxProduct__price, .home__boxProduct__boxsp__maso, .header__top__txt, .header__top__subnav > li > a, .footer__copyright, .sidebar__box1__txt2 {
     font-size: 13px !important;
   }
 }
 
-.fz-14, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
+.fz-14, .order__table tr th, .order__stt, .info_user__editForm__input, .info_user__editForm__btn, .info_user__editForm__txt, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .sidebar__box1__txt3, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
   font-size: 14px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-14, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
+  .fz-14, .order__table tr th, .order__stt, .info_user__editForm__input, .info_user__editForm__btn, .info_user__editForm__txt, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .sidebar__box1__txt3, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
     font-size: calc(14px + 0 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-14, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
+  .fz-14, .order__table tr th, .order__stt, .info_user__editForm__input, .info_user__editForm__btn, .info_user__editForm__txt, .cart__boxModal__input, .cart__box1__txt1, .tracuudonhang__section1__box1__list, .contact__section1__input, .news__box1__desc, .productDetail__section1__box11__time, .productDetail__section1__box11__buytxt, .productDetail__section1__box2__btncart, .productDetail__section1__box1__label, .productDetail__section1__thongtinsocial__txt, .productDetail__section1__thongtinlienhe__list, .productDetail__section1__thongtinsp__desc, .productDetail__boxBreadcrumd__dc1, .productDetail__boxBreadcrumd .uk-breadcrumb > li > span, .productDetail__boxBreadcrumd .uk-breadcrumb > li > a, .home__boxTintuc__desc, .home__box01__desc, .home__boxDichvu__btn, .home__boxTitle__desc, .home__boxSlider__box1__btn, .home__boxSlider__box1__desc, .header__bottom__subnav > li > a, .header__bottom__submenu__txt, .header__bottom__sub2 > li > a, .footer__txt, .footer__menu > li > a, .sidebar__box1__txt3, .dc1, .uk-pagination > li > a, .uk-pagination > li > span {
     font-size: 14px !important;
   }
 }
@@ -1750,16 +1765,16 @@ body {
   }
 }
 
-.fz-16, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title {
+.fz-16, .info_user__box1__txt, .info_user__editForm__label, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title, .sidebar__box1__txt1 {
   font-size: 14.4px !important;
 }
 @media screen and (min-width: 640px) {
-  .fz-16, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title {
+  .fz-16, .info_user__box1__txt, .info_user__editForm__label, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title, .sidebar__box1__txt1 {
     font-size: calc(14.4px + 1.6 * ((100vw - 640px) / 560)) !important;
   }
 }
 @media screen and (min-width: 1200px) {
-  .fz-16, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title {
+  .fz-16, .info_user__box1__txt, .info_user__editForm__label, .cart__box1__txt3, .cart__box1__title, .news-detail__box1__title, .productDetail__section1__box1__title, .productDetail__section1__thongtinlienhe__title, .sidebar__box1__txt1 {
     font-size: 16px !important;
   }
 }
@@ -3187,4 +3202,72 @@ body {
   .cart__right__pay1__txt {
     font-size: 14px !important;
   }
+}
+
+.info_user__editForm__label {
+  color: #767676;
+}
+.info_user__editForm__txt {
+  color: #ababab;
+}
+.info_user__editForm__input, .info_user__editForm__btn {
+  color: #767676;
+  border-color: #f3f3f3;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+}
+.info_user__editForm__btn {
+  padding-left: 12px;
+  text-transform: inherit;
+}
+.info_user__box1 {
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 12px;
+}
+.info_user__box1__box:after {
+  content: "";
+  position: absolute;
+  bottom: calc(0px - 12px - 1px);
+  left: 0;
+  right: 0;
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: #19b8f3;
+}
+.info_user__box1 .uk-icon {
+  color: #19b8f3;
+}
+.info_user__box1__txt {
+  color: #676767;
+  font-family: "Chakra Petch Bold", sans-serif;
+}
+
+.order__time {
+  color: #a7a7a7;
+}
+.order__status {
+  color: #00d089;
+}
+.order__price {
+  color: #f22f39;
+  font-family: "Chakra Petch Bold", sans-serif;
+}
+.order__name {
+  color: #767676;
+  font-family: "Chakra Petch Bold", sans-serif;
+  text-transform: uppercase;
+}
+.order__stt {
+  color: #767676;
+}
+.order__code {
+  color: #6fbbb4;
+  font-family: "Chakra Petch Bold", sans-serif;
+}
+.order__table tr th {
+  background-color: #f2f2f2;
+  color: #767676;
+  font-family: "Chakra Petch Bold", sans-serif;
+  text-transform: inherit;
 }
