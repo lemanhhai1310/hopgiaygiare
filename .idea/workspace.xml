@@ -118,11 +118,6 @@
       <change afterPath="$PROJECT_DIR$/../aptech1/mail/phpmailer/src/SMTP.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../aptech1/scss/layout/_sendmail.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../aptech1/send-mailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_info_user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_order.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/layouts/sidebar.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/blog-detail.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/blog.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kaocoffee/contact.php" afterDir="false" />
@@ -11629,10 +11624,7 @@
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cooken" beforeDir="false" afterPath="$PROJECT_DIR$/../cooken" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/_sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/info_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/base.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
@@ -11847,7 +11839,7 @@
       <workItem from="1617283191265" duration="27000" />
       <workItem from="1617284070225" duration="3074000" />
       <workItem from="1617293257891" duration="598000" />
-      <workItem from="1617325943708" duration="5304000" />
+      <workItem from="1617325943708" duration="5485000" />
     </task>
     <servers />
   </component>

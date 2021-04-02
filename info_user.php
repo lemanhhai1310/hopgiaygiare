@@ -15,7 +15,7 @@
                         <span class="uk-text-middle info_user__box1__txt">CẬP NHẬT THÔNG TIN TÀI KHOẢN</span>
                     </div>
                 </div>
-                <form class="uk-form-horizontal uk-margin-large">
+                <form class="uk-form-horizontal uk-margin">
 
                     <div class="uk-margin">
                         <label class="uk-form-label info_user__editForm__label" for="form-horizontal-text">Họ và tên (*)</label>
